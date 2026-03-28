@@ -305,9 +305,9 @@ const GALLERY = [
   { label: "Result 2024",   
     img: "images/result photo.jpeg", icon: "fas fa-trophy" },
   { label: "Workshop on Essay",    
-    img: "images/class_Photo.jpeg",    icon: "fas fa-pen-alt" },
+    img: "images/Class_Photo.jpeg",    icon: "fas fa-pen-alt" },
   { label: "Workshop on Essay",  
-    img: "images/Classes.jpeg", icon: "fas fa-medal" },
+    img: "images/classes.jpeg", icon: "fas fa-medal" },
 ];
 function renderGallery() {
   const grid = document.getElementById("galleryGrid");
