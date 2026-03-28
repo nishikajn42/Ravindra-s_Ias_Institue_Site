@@ -1,151 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravindra's IAS Institute - Gwalior</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravindra's IAS Institute-Gwalior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <!-- SIDEBAR (Desktop) / TOP NAVBAR (Mobile) --> 
-     <!-- Desktop -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-logo">
-            <div class="logo-icon">
-                <!-- <img src="images/ravindraLogo.jpeg"/> -->
-                <i class="fas fa-landmark"></i>
-            </div>
-            <div class="logo-text">
-                <span class="logo-main">Ravindra's</span>
-                <span class="logo-sub">IAS Institute</span>
-            </div>
-        </div>
-        <ul class="nav-links">
-            <li>
-                <a href="#home" class="nav-link active" data-section="home">
-                    <i class="fas fa-home"></i><span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="legacy">
-                    <i class="fas fa-trophy"></i><span>Legacy</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="courses">
-                    <i class="fas fa-book-open"></i><span>Courses</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="alumni">
-                    <i class="fas fa-user-graduate"></i><span>Alumni</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="benefits">
-                    <i class="fas fa-star"></i><span>Why Us</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="faculty">
-                    <i class="fas fa-chalkboard-teacher"></i><span>Faculty</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="gallery">
-                    <i class="fas fa-images"></i><span>Gallery</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="study">
-                    <i class="fas fa-file-pdf"></i><span>Study</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link" data-section="contact">
-                    <i class="fas fa-envelope"></i><span>Contact</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link nav-login" data-section="login">
-                    <i class="fas fa-sign-in-alt"></i><span>Login</span>
-                </a>
-            </li>
-        </ul>
-         <div class="sidebar-footer">
-            <p>© 2025 Ravindra's IAS</p>
-        </div>
-    </nav>
+<!--SIDEBAR (Desktop) / TOP NAVBAR (Mobile)-->
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-icon"><i class="fas fa-landmark"></i></div>
+    <div class="logo-text">
+      <span class="logo-main">Ravindra's</span>
+      <span class="logo-sub">IAS Institute</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i><span>Home</span></a></li>
+    <li><a href="#legacy" class="nav-link" data-section="legacy"><i class="fas fa-trophy"></i><span>Legacy</span></a></li>
+    <li><a href="#courses" class="nav-link" data-section="courses"><i class="fas fa-book-open"></i><span>Courses</span></a></li>
+    <li><a href="#alumni" class="nav-link" data-section="alumni"><i class="fas fa-user-graduate"></i><span>Alumni</span></a></li>
+    <li><a href="#benefits" class="nav-link" data-section="benefits"><i class="fas fa-star"></i><span>Why Us</span></a></li>
+    <li><a href="#faculty" class="nav-link" data-section="faculty"><i class="fas fa-chalkboard-teacher"></i><span>Faculty</span></a></li>
+    <li><a href="#gallery" class="nav-link" data-section="gallery"><i class="fas fa-images"></i><span>Gallery</span></a></li>
+    <li><a href="#study" class="nav-link" data-section="study"><i class="fas fa-file-pdf"></i><span>Study</span></a></li>
+    <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+    <li><a href="#login" class="nav-link nav-login" data-section="login"><i class="fas fa-sign-in-alt"></i><span>Login</span></a></li>
+  </ul>
+  <div class="sidebar-footer">
+    <p>© 2025 Ravindra's IAS</p>
+  </div>
+</nav>
 
-    <!-- Mobile Top Navbar -->
-    <header class="top-header" id="topHeader">
-        <div class="header-left">
-            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-            <div class="header-brand">
-                <span class="brand-name">Ravindra's <span class="gold">IAS</span></span>
-            </div>
-        </div>
-        <a href="#login" class="header-login-btn">Login</a>
-    </header>
- 
-    <!-- Mobile Drawer -->
-    <div class="mobile-overlay" id="mobileOverlay"></div>
-    <nav class="mobile-drawer" id="mobileDrawer">
-        <ul>
-            <li><a href="#home" class="mob-link"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#legacy" class="mob-link"><i class="fas fa-trophy"></i> Legacy</a></li>
-            <li><a href="#courses" class="mob-link"><i class="fas fa-book-open"></i> Courses</a></li>
-            <li><a href="#alumni" class="mob-link"><i class="fas fa-user-graduate"></i> Alumni</a></li>
-            <li><a href="#benefits" class="mob-link"><i class="fas fa-star"></i> Why Us</a></li>
-            <li><a href="#faculty" class="mob-link"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
-            <li><a href="#gallery" class="mob-link"><i class="fas fa-images"></i> Gallery</a></li>
-            <li><a href="#study" class="mob-link"><i class="fas fa-file-pdf"></i> Study Material</a></li>
-            <li><a href="#contact" class="mob-link"><i class="fas fa-envelope"></i> Contact</a></li>
-            <li><a href="#login" class="mob-link"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-        </ul>
-    </nav>
-    <!-- MAIN CONTENT -->
-    <main class="main-content" id="mainContent"></main>
-    <!-- SECTION 1 – HERO / RESULTS -->
-    <section id="home" class="section hero-section">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <div class="hero-badge"><i class="fas fa-award"></i> Trusted Since 2005</div>
-            <h1 class="hero-title">
-                <span class="typing-text" id="typingText"></span>
-                <span class="cursor-blink">|</span>
-            </h1>
-            <p class="hero-subtitle">Gwalior's Most Trusted IAS Coaching Institute — Shaping the Nation's Leaders</p>
-            <div class="hero-cta">
-                <a href="#courses" class="btn btn-gold">Explore Courses <i class="fas fa-arrow-right"></i></a>
-                <a href="#login" class="btn btn-outline">Student Login <i class="fas fa-sign-in-alt"></i></a>
-            </div>
-            <div class="hero-stats">
-                <div class="hstat"><span class="hstat-num">2000+</span><span class="hstat-label">Selections</span></div>
-                <div class="hstat-div"></div>
-                <div class="hstat"><span class="hstat-num">20+</span><span class="hstat-label">Years</span></div>
-                <div class="hstat-div"></div>
-                <div class="hstat"><span class="hstat-num">95%</span><span class="hstat-label">Success Rate</span></div>
-            </div>
-        </div>
- 
-        <!-- Topper Carousel -->
-        <div class="hero-carousel">
-            <div class="carousel-header">
-                <h3><i class="fas fa-medal"></i> Our Top Selections 2025</h3>
-            </div>
-            <div class="carousel-track" id="carouselTrack"></div>
-            <!-- Cards injected by JS -->
-            <div class="carousel-dots" id="carouselDots"></div>
-        </div>
-    </section>
+<!-- Mobile Top Navbar -->
+<header class="top-header" id="topHeader">
+  <div class="header-left">
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="header-brand">
+      <span class="brand-name">Ravindra's <span class="gold">IAS</span></span>
+    </div>
+  </div>
+  <a href="#login" class="header-login-btn">Login</a>
+</header>
 
-    <section id="legacy" class="section legacy-section">
+<!-- Mobile Drawer -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-drawer" id="mobileDrawer">
+  <ul>
+    <li>
+        <a href="#home" class="mob-link"><i class="fas fa-home"></i> Home</a></li>
+    <li>
+        <a href="#legacy" class="mob-link"><i class="fas fa-trophy"></i> Legacy</a></li>
+    <li>
+        <a href="#courses" class="mob-link"><i class="fas fa-book-open"></i> Courses</a></li>
+    <li>
+        <a href="#alumni" class="mob-link"><i class="fas fa-user-graduate"></i> Alumni</a></li>
+    <li>
+        <a href="#benefits" class="mob-link"><i class="fas fa-star"></i> Why Us</a></li>
+    <li>
+        <a href="#faculty" class="mob-link"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+    <li>
+        <a href="#gallery" class="mob-link"><i class="fas fa-images"></i> Gallery</a></li>
+    <li>
+        <a href="#study" class="mob-link"><i class="fas fa-file-pdf"></i> Study Material</a></li>
+    <li>
+        <a href="#contact" class="mob-link"><i class="fas fa-envelope"></i> Contact</a></li>
+    <li>
+        <a href="#login" class="mob-link"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+  </ul>
+</nav>
+
+<!--MAIN CONTENT  -->
+<main class="main-content" id="mainContent">
+
+  <!--SECTION 1 – HERO / RESULTS
+  ============================================================ -->
+  <section id="home" class="section hero-section">
+    <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge"><i class="fas fa-award"></i> Trusted Since 2001</div>
+      <h1 class="hero-title">
+        <span class="typing-text" id="typingText"></span>
+        <span class="cursor-blink">|</span>
+      </h1>
+      <p class="hero-subtitle">Gwalior's Most Trusted IAS Coaching Institute — Shaping the Nation's Leaders</p>
+      <div class="hero-cta">
+        <a href="#courses" class="btn btn-gold">Explore Courses <i class="fas fa-arrow-right"></i></a>
+        <a href="#login" class="btn btn-outline">Student Login <i class="fas fa-sign-in-alt"></i></a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hstat-num">2000+</span><span class="hstat-label">Selections</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-num">25+</span><span class="hstat-label">Years</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-num">95%</span><span class="hstat-label">Success Rate</span></div>
+      </div>
+        <div class="hero-results-box">
+            <div class="results-label">Our Recent Results</div>
+            <div class="slideshow-container">
+                <div class="result-slide fade"><img src="images/result photo.jpeg" alt="Result 1"></div>
+                <div class="result-slide fade"><img src="images/result2.jpeg" alt="Result 2"></div>
+                <div class="result-slide fade"><img src="images/result photo.jpeg" alt="Result 3"></div>
+            </div>
+        </div>
+    <!-- Topper Carousel -->
+    <div class="hero-carousel">
+      <div class="carousel-header">
+        <h3><i class="fas fa-medal"></i> Our Top Selections 2025</h3>
+      </div>
+      <div class="carousel-track" id="carouselTrack">
+        <!-- Cards injected by JS -->
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!--SECTION 2 – LEGACY / HIGHLIGHTS
+  ============================================================ -->
+  <section id="legacy" class="section legacy-section">
     <div class="section-header">
       <span class="section-tag">Our Track Record</span>
       <h2 class="section-title">A Legacy of <span class="gold">Excellence</span></h2>
@@ -182,8 +162,9 @@
       </div>
     </div>
   </section>
- 
-  <!--SECTION 3 – COURSES-->
+
+  <!--SECTION 3 – COURSES
+  ============================================================ -->
   <section id="courses" class="section courses-section">
     <div class="section-header">
       <span class="section-tag">Programmes</span>
@@ -191,12 +172,13 @@
       <p class="section-desc">Comprehensive programmes designed for every stage of your UPSC journey</p>
     </div>
     <div class="courses-grid" id="coursesGrid">
-      <!-- Injected by JS (as done by it) -->
+      <!-- Injected by JS -->
     </div>
   </section>
- 
-  <!--SECTION 4 – ALUMNI / SUCCESS STORIES
-  --------------------------------------------------- -->
+
+  <!-- ============================================================
+       SECTION 4 – ALUMNI / SUCCESS STORIES
+  ============================================================ -->
   <section id="alumni" class="section alumni-section">
     <div class="section-header">
       <span class="section-tag">Success Stories</span>
@@ -214,6 +196,364 @@
       </div>
     </div>
   </section>
-    <script src="script.js"></script>
+
+  <!--SECTION 5 – BENEFITS / WHY CHOOSE US
+  ============================================================ -->
+  <section id="benefits" class="section benefits-section">
+    <div class="section-header">
+      <span class="section-tag">Why Choose Us</span>
+      <h2 class="section-title">The <span class="gold">Ravindra's</span> Advantage</h2>
+      <p class="section-desc">Everything you need to crack UPSC — under one roof</p>
+    </div>
+    <div class="benefits-grid" id="benefitsGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!--SECTION 6 – LOGIN SYSTEM
+  =================================== -->
+  <section id="login" class="section login-section">
+    <div class="login-container" id="loginContainer">
+      <div class="login-box" id="loginBox">
+        <div class="login-header">
+          <i class="fas fa-landmark login-logo-icon"></i>
+          <h2>Welcome Back</h2>
+          <p>Sign in to your Ravindra's IAS portal</p>
+        </div>
+        <div class="login-tabs">
+          <button class="login-tab active" data-role="student">
+            <i class="fas fa-user-graduate"></i> Student
+          </button>
+          <button class="login-tab" data-role="faculty">
+            <i class="fas fa-chalkboard-teacher"></i> Faculty
+          </button>
+        </div>
+        <div class="login-form">
+          <div class="form-group">
+            <label>User ID</label>
+            <input type="text" id="loginId" placeholder="Enter your ID" />
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <div class="pass-wrap">
+              <input type="password" id="loginPass" placeholder="Enter password" />
+              <button class="toggle-pass" onclick="togglePass()"><i class="fas fa-eye" id="eyeIcon"></i></button>
+            </div>
+          </div>
+          <div class="login-hint" id="loginHint"></div>
+          <button class="btn btn-gold btn-full" onclick="handleLogin()">
+            <i class="fas fa-sign-in-alt"></i> Login
+          </button>
+          <p class="login-demo-hint">Demo: Student ID=<b>1</b> | Faculty ID=<b>2</b> | Any password</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- STUDENT DASHBOARD -->
+    <div class="dashboard" id="studentDashboard" style="display:none">
+      <div class="dash-header">
+        <div class="dash-welcome">
+          <i class="fas fa-user-circle"></i>
+          <div>
+            <h2>Welcome, <span id="studentName">Arjun Sharma</span></h2>
+            <p>UPSC Foundation Batch 2025</p>
+          </div>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+      </div>
+      <div class="dash-grid">
+        <!-- Schedule -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-calendar-alt"></i> Class Schedule</h3>
+          <div class="schedule-list" id="scheduleList"></div>
+        </div>
+        <!-- Notifications -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-bell"></i> Notifications</h3>
+          <div class="notif-list" id="notifList"></div>
+        </div>
+        <!-- Subjects -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-book"></i> Enrolled Subjects</h3>
+          <div class="subject-tags" id="subjectTags"></div>
+        </div>
+        <!-- Notes -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-file-pdf"></i> Notes & PDFs</h3>
+          <div class="notes-list" id="notesList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FACULTY DASHBOARD -->
+    <div class="dashboard" id="facultyDashboard" style="display:none">
+      <div class="dash-header">
+        <div class="dash-welcome">
+          <i class="fas fa-chalkboard-teacher" style="font-size:2rem;color:var(--gold)"></i>
+          <div>
+            <h2>Welcome, <span>Prof. Ravindra Singh</span></h2>
+            <p>Faculty Portal – Ravindra's IAS Institute</p>
+          </div>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+      </div>
+      <div class="dash-grid faculty-grid">
+        <!-- Add Subject -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-plus-circle"></i> Add Subject</h3>
+          <div class="form-group">
+            <label>Subject Name</label>
+            <input type="text" id="newSubject" placeholder="e.g. Indian Polity"/>
+          </div>
+          <div class="form-group">
+            <label>Schedule (day & time)</label>
+            <input type="text" id="newSchedule" placeholder="e.g. Mon 9:00 AM"/>
+          </div>
+          <button class="btn btn-gold btn-sm" onclick="addSubject()"><i class="fas fa-save"></i> Add Subject</button>
+          <div class="faculty-msg" id="subjectMsg"></div>
+        </div>
+        <!-- Add Student -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-user-plus"></i> Add Student</h3>
+          <div class="form-group">
+            <label>Student Username</label>
+            <input type="text" id="newStudent" placeholder="e.g. Arjun Sharma"/>
+          </div>
+          <button class="btn btn-gold btn-sm" onclick="addStudent()"><i class="fas fa-plus"></i> Add Student</button>
+          <div class="faculty-msg" id="studentMsg"></div>
+          <div class="student-list-wrap">
+            <h4>Enrolled Students</h4>
+            <div id="enrolledStudents"></div>
+          </div>
+        </div>
+        <!-- Upload Notes -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-upload"></i> Upload Notes</h3>
+          <div class="form-group">
+            <label>Note Title</label>
+            <input type="text" id="noteTitle" placeholder="e.g. Economy Chapter 1"/>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" id="noteSubject" placeholder="e.g. Economy"/>
+          </div>
+          <button class="btn btn-gold btn-sm" onclick="uploadNote()"><i class="fas fa-cloud-upload-alt"></i> Upload</button>
+          <div class="faculty-msg" id="noteMsg"></div>
+        </div>
+        <!-- Manage Notifications -->
+        <div class="dash-card">
+          <h3 class="dash-card-title"><i class="fas fa-bullhorn"></i> Send Notification</h3>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="notifMessage" rows="3" placeholder="e.g. Mock Test on Friday 10 AM"></textarea>
+          </div>
+          <button class="btn btn-gold btn-sm" onclick="sendNotif()"><i class="fas fa-paper-plane"></i> Send</button>
+          <div class="faculty-msg" id="notifMsg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION 7 – FACULTY / ABOUT
+  ============================================================ -->
+  <section id="faculty" class="section faculty-section">
+    <div class="section-header">
+      <span class="section-tag">The Team</span>
+      <h2 class="section-title">Our <span class="gold">Expert</span> Faculty</h2>
+      <p class="section-desc">Seasoned mentors who've been there and done that</p>
+    </div>
+    <!-- Founder -->
+    <div class="founder-card fade-in">
+      <div class="founder-img-wrap">
+        <div class="founder-avatar"><i class="fas fa-user-tie"></i></div>
+        <div class="founder-badge">Founder & Director</div>
+      </div>
+      <div class="founder-info">
+        <h2>Shri Ravindra Singh Jadon</h2>
+        <p class="founder-qual"> Director,Ravindra Institue · 25+ Years in UPSC Mentorship</p>
+        <p class="founder-bio">Shri Ravindra Singh is a retired IAS officer from the Madhya Pradesh cadre and an alumnus of IIT Delhi. With over 25 years of mentoring experience, he has personally guided more than 500 officers who now serve across India. His pedagogical approach blends strategic thinking with grassroots empathy — a rare combination that defines the Ravindra's IAS methodology.</p>
+        <div class="founder-tags">
+          <!-- <span class="tag"><i class="fas fa-award"></i> Ex-IAS MP Cadre</span> -->
+          <!-- <span class="tag"><i class="fas fa-university"></i> IIT Delhi</span> -->
+          <span class="tag"><i class="fas fa-users"></i> 500+ Officers Mentored</span>
+        </div>
+      </div>
+    </div>
+    <!-- Faculty Cards -->
+    <div class="faculty-grid" id="facultyGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!--SECTION 8 – GALLERY
+  ============================================================ -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-header">
+            <span class="section-tag">Photo Gallery</span>
+            <h2 class="section-title">Life at <span class="gold">Ravindra's</span></h2>
+            <p class="section-desc">Moments that define our culture of excellence</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+        <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
+
+  <!--SECTION 9 – STUDY MATERIAL
+  ============================================================ -->
+  <section id="study" class="section study-section">
+    <div class="section-header">
+      <span class="section-tag">Resources</span>
+      <h2 class="section-title">Study <span class="gold">Material</span></h2>
+      <p class="section-desc">Premium notes, PDFs, and resources crafted by experts</p>
+    </div>
+    <div class="study-grid" id="studyGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 10 – CONTACT
+  ============================================================ -->
+  <section id="contact" class="section contact-section">
+    <div class="section-header">
+      <span class="section-tag">Reach Us</span>
+      <h2 class="section-title">Get in <span class="gold">Touch</span></h2>
+      <p class="section-desc">We'd love to hear from you. Let's talk about your UPSC journey.</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <h4>Address</h4>
+            <p>2nd Floor, krishna tower, Phool Bagh, Lashkar, Gwalior, Madhya Pradesh 474002</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 9953101176<br>+91 8700170483</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>ravindrasiasdelhi@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <h4>Office Hours</h4>
+            <p>Mon - Sat: 7:30 AM - 7:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="submitContactForm(event)">
+        <div class="form-row">
+          <div class="form-group"><label>Full Name</label><input type="text" placeholder="Your Name" required/></div>
+          <div class="form-group"><label>Email</label><input type="email" placeholder="your@email.com" required/></div>
+        </div>
+        <div class="form-group"><label>Phone</label><input type="tel" placeholder="+91 00000 00000"/></div>
+        <div class="form-group">
+          <label>Course Interested In</label>
+          <select>
+            <option value="">-- Select Course --</option>
+            <option>UPSC Foundation</option>
+            <option>Prelims + Mains</option>
+            <option>Optional Subjects</option>
+            <option>Test Series</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Message</label><textarea rows="4" placeholder="Tell us about yourself and your goals..."></textarea></div>
+        <button type="submit" class="btn btn-gold btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+        <div class="form-success" id="formSuccess" style="display:none">
+          <i class="fas fa-check-circle"></i> Message sent! We'll contact you within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main><!-- end main-content -->
+
+<!-- FOOTER
+============================================================ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand-col">
+      <div class="footer-logo">
+        <i class="fas fa-landmark"></i>
+        <div>
+          <span class="footer-brand-name">Ravindra's IAS Institute</span>
+          <span class="footer-brand-city">Gwalior, Madhya Pradesh</span>
+        </div>
+      </div>
+      <p class="footer-tagline">"Shaping India's Civil Servants Since 2001"</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#alumni">Success Stories</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <ul>
+        <li><a href="#courses">UPSC Foundation</a></li>
+        <li><a href="#courses">Prelims + Mains</a></li>
+        <li><a href="#courses">Optional Subjects</a></li>
+        <li><a href="#courses">Test Series</a></li>
+        <li><a href="#study">Study Material</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-contact-list">
+        <li><i class="fas fa-map-marker-alt"></i>2nd Floor, krishna tower, Phool Bagh, Lashkar, Gwalior, Madhya Pradesh 474002</li>
+        <li><i class="fas fa-phone-alt"></i> +91 9953101176</li>
+        <li><i class="fas fa-envelope"></i>ravindrasiasdelhi@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Ravindra's IAS Institute, Gwalior. All Rights Reserved.</p>
+    <p>Designed by Nishika Jain | Sanskriti Yadav with <i class="fas fa-heart" style="color:var(--gold)"></i> for Future Officers</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
